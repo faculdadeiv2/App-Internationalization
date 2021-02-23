@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>faculdade iv2 - Traduções</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="py-5 bg-gray-700 text-white text-center" style="display: flex; font-family: 'Pacifico', cursive; font-size: 24px; flex-wrap: wrap; justify-content: center;">
+    <p style="margin-left: 42.5%;">My Rental Places</p>
+    <div id="selec" style="margin-left: auto;  margin-right: 10px;">
+      
+      <select name="langSelect" id="langSelec" class="bg-gray-700" style="font-size: 12px;">
+        <optgroup label="Language">
+          
+          <option value="PT-br">Português</option>
+          <option value="EN-us" selected>English</option>
+          <option value="FR-fr">Français</option>
+        </optgroup>
+      </select>
+    </div>
+  </header>
+  <div class="grid grid-cols-1 sm:grid-cols-2 sm:px-8 sm:py-12 sm:gap-x-8 md:py-16" style="max-width: 1200px; margin: auto;">
+    <div class="relative z-10 col-start-1 row-start-1 px-4 pt-40 pb-3 bg-gradient-to-t from-black sm:bg-none">
+      <p class="text-sm font-medium text-white sm:mb-1 sm:text-gray-500" id="type">Entire house</p>
+      <h2 class="text-xl font-semibold text-white sm:text-2xl sm:leading-7 sm:text-black md:text-3xl" id="title">Field House in Collingwood</h2>
+    </div>
+    <div class="col-start-1 row-start-2 px-4 sm:pb-16">
+      <div class="flex items-center text-sm font-medium my-5 sm:mt-2 sm:mb-4">
+        <svg width="20" height="20" fill="currentColor" class="text-violet-600">
+          <path d="M9.05 3.691c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.372 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.539 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.363-1.118l-2.8-2.034c-.784-.57-.381-1.81.587-1.81H7.03a1 1 0 00.95-.69L9.05 3.69z" />
+        </svg>
+        <div class="ml-1">
+          <span class="text-black">4.94</span>
+          <span class="sm:hidden md:inline">(128)</span>
+        </div>
+        <div class="text-base font-normal mx-2">·</div>
+        <div>Collingwood, Ontario</div>
+      </div>
+      <hr class="w-16 border-gray-300 hidden sm:block">
+    </div>
+    <div class="col-start-1 row-start-3 space-y-3 px-4">
+      <p class="flex items-center text-black text-sm font-medium" style="display: flex; flex-wrap: nowrap;">
+        <img src="https://images.unsplash.com/photo-1584799235813-aaf50775698c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80" alt="" class="w-6 h-6 rounded-full mr-2 bg-gray-100">
+        <p id="host">Hosting By Kevin Francis</p>
+      </p>
+      <button type="button" class="bg-violet-100 text-violet-700 text-base font-semibold px-6 py-2 rounded-lg" id="available">Check availability</button>
+    </div>
+    <div class="col-start-1 row-start-1 flex sm:col-start-2 sm:row-span-3">
+      <div class="w-full grid grid-cols-3 grid-rows-2 gap-2">
+        <div class="relative col-span-3 row-span-2 md:col-span-2">
+          <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="" class="absolute inset-0 w-full h-full object-cover bg-gray-100 sm:rounded-lg" />
+        </div>
+        <div class="relative hidden md:block">
+          <img src="https://images.unsplash.com/photo-1554995207-c18c203602cb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="" class="absolute inset-0 w-full h-full object-cover rounded-lg bg-gray-100" />
+        </div>
+        <div class="relative hidden md:block">
+          <img src="https://images.unsplash.com/photo-1584406445076-88e095f28f4c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80" alt="" class="absolute inset-0 w-full h-full object-cover rounded-lg bg-gray-100" />
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="min-h-screen bg-white-100 py-12 flex flex-col justify-center sm:py-6" style="margin-bottom: 100px;">
+    <div class="relative py-3 sm:mx-auto">
+      <div class="absolute inset-0 bg-gradient-to-r from-cyan-400 to-blue-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl" style="background-color: lightblue; box-shadow: 0px 2px 4px grey;"></div>
+      <div class="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20" style="background-color: antiquewhite; box-shadow: 0px 2px 4px grey;">
+        <div class="max-w-md mx-auto">
+          <div>
+            <p style="font-family: 'Pacifico', crusive;">My Rental Places</p>
+          </div>
+          <div class="divide-y divide-gray-200">
+            <div class="py-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
+              <p id="card_start">This is a great home to enjoy with the family. Its biggest benefits are:</p>
+              <ul class="list-disc space-y-2">
+                <li class="flex items-start">
+                  <span class="h-6 flex items-center sm:h-7">
+                    <svg class="flex-shrink-0 h-5 w-5 text-cyan-500" viewBox="0 0 20 20" fill="currentColor">
+                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                    </svg>
+                  </span>
+                  <p class="ml-2" id="benefits_first">
+                    Masonry pool for up to 20 people
+                  </p>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-6 flex items-center sm:h-7">
+                    <svg class="flex-shrink-0 h-5 w-5 text-cyan-500" viewBox="0 0 20 20" fill="currentColor">
+                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                    </svg>
+                  </span>
+                  <p class="ml-2" id="benefits_second">
+                    Fireplace to keep warm at night.
+                  </p>
+                </li>
+                <li class="flex items-start">
+                  <span class="h-6 flex items-center sm:h-7">
+                    <svg class="flex-shrink-0 h-5 w-5 text-cyan-500" viewBox="0 0 20 20" fill="currentColor">
+                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                    </svg>
+                  </span>
+                  <p class="ml-2" id="benefits_third">Wide area for animals and children to play</p>
+                </li>
+              </ul>
+              <p id="card_end">Perfect for those whom are in look for a place to chill in the country side.</p>
+            </div>
+            <div class="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7">
+              <p id="card_text_info">If you want more information, click on link bellow:</p>
+              <p>
+                <a class="text-cyan-600 hover:text-cyan-700" href="https://class.faculdadeiv2.com.br" target="_blank" id="card_link_info">More Information →</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="py-5 bg-gray-700 text-white text-center" style="font-family: 'Pacifico', cursive;"><p id="card_footer">Come Back Soon</p></footer>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
